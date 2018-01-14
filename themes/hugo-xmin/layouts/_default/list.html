@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+<div class="main-black-cover">
+  <div class="cover_container">
+    <div class="javaswag_name">
+      <span class="text-style-1">Javaswag </span>  — рассылка и телеграм-канал интересных и полезных статей из мира Java
+    </div>
+    <div class="col-3" style="margin-top: 150px">
+      <div class="cover-text">Читать на почте:</div>
+      <input class="cover-input"> <br>
+      <button class="btn-cover">Подписаться</button>
+    </div>
+    <div class="col-3">
+      <img src="/img/duk_javaswag.gif" style="margin: auto; display: block; margin-top: 75px; width: 50%;">
+    </div>
+    <div class="col-3" style="margin-top: 150px">
+      <div class="cover-text">или в телеграм-канале:</div>
+      <img src="/img/Logoteleg.png" style="float: left">
+      <div class="cover-link">https://t.me/javaswag</div>
+
+
+    </div>
+  </div>
+
+</div>
+
+<div class="main-block-container">
+<ul>
+  {{ range (where .Data.Pages "Section" "!=" "") }}
+  <li>
+    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+    <a href="{{ .URL }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+</div>
+
+
+
+
+
+{{ partial "footer.html" . }}
