@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javaswag выпуск 22 | Javaswag</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,800i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&amp;subset=cyrillic" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+    
+      
+    
+    
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Javaswag выпуск 22</span></h1>
+
+
+</div>
+
+
+<main>
+<p>Привет!</p>
+
+<p>В выпуске стримим данные из MySql с помощью Spring Data, разбираемся с производительностью JVM в докере и знакомимся с проектом Reactor от Spring.</p>
+
+<p><a href="https://medium.com/@johnmcclean/trampolining-a-practical-guide-for-awesome-java-developers-4b657d9c3076#.gqjbui9qd">https://medium.com/@johnmcclean/trampolining-a-practical-guide-for-awesome-java-developers-4b657d9c3076#.gqjbui9qd</a></p>
+
+<p><strong>Trampolining: a practical guide for awesome Java Developers</strong></p>
+
+<p>Основная проблема рекурсивных методов это зависимость от размера стека. С помощью рекурсии можно обрабатывать только небольшие объемы данных, чтобы не поймать StackOverFlowError. Но когда мы переписываем код с рекурсии на очередь например, код становится не таким читаемым. В статье рассказывается о том как можно писать рекурсивный код, который будет выполнятся итеративно.</p>
+
+<p><a href="http://mrhaki.blogspot.ru/2014/05/groovy-goodness-implementing-traits-at.html">http://mrhaki.blogspot.ru/2014/05/groovy-goodness-implementing-traits-at.html</a></p>
+
+<p><strong>Groovy Goodness: Implementing Traits at Runtime</strong></p>
+
+<p>В статье рассказывается про Трейты — конструкцию из языка Груви. Трейт — это интерфейс, который мы можем добавить к классу динамически. Мы как будто подмешиваем свое поведение к уже существующему классу.</p>
+
+<p><a href="https://knes1.github.io/blog/2015/2015-10-19-streaming-mysql-results-using-java8-streams-and-spring-data.html">https://knes1.github.io/blog/2015/2015-10-19-streaming-mysql-results-using-java8-streams-and-spring-data.html</a></p>
+
+<p><strong>Streaming MySQL Results Using Java 8 Streams and Spring Data JPA</strong></p>
+
+<p>В статье рассказывается о том как можно отдавать данные из MySql в потоковом режиме. Углубившись в дебри документации к MySql  автору удалось сократить время экспорта с **137 секунд до 9! **</p>
+
+<p><a href="http://codeahoy.com/2016/11/16/performance-testing-serverside-applications/">http://codeahoy.com/2016/11/16/performance-testing-serverside-applications/</a></p>
+
+<p><strong>Performance Testing Serverside Applications</strong></p>
+
+<p>В статье рассказывается как нужно и как не нужно тестировать производительность приложения. Из статьи узнаете почему бессмысленно мерить производительность приложения не в продакшн окружении.</p>
+
+<p><a href="https://techblog.bozho.net/hardcode-server-ip-apps/">https://techblog.bozho.net/hardcode-server-ip-apps/</a></p>
+
+<p><strong>Domain Fallback Mechanism In Apps</strong></p>
+
+<p>Что делать если какой-то из больших днс серверов упал? Да, теперь мы не можем подключится к серверу по его домену, а в наше время микросервисов это еще более больно, чем раньше. Автор решает эту проблему с помощью фолбеков - сначала мы пробуем первый домен, если не получается запасной, затем пробуем достучаться по ip адресу.</p>
+
+<p><a href="http://javarticles.com/2016/11/linkedblockingqueue-example.html">http://javarticles.com/2016/11/linkedblockingqueue-example.html</a></p>
+
+<p><strong>LinkedBlockingQueue Example</strong></p>
+
+<p>Автор с отличными примерами и картинками рассказывает о том как работает ‘LinkedBlockingQueue ’ Обязательно запустите примеры из статьи - они хорошо демонстрируют применение этой структуры данных.</p>
+
+<p><a href="https://www.youtube.com/watch?v=6ePUiQuaUos&amp;t=310s&amp;index=47&amp;list=WL">https://www.youtube.com/watch?v=6ePUiQuaUos&amp;t=310s&amp;index=47&amp;list=WL</a></p>
+
+<p><strong>The JVM and Docker. A good idea? by Christopher Batey</strong></p>
+
+<p>Кристофер рассказывает о проблемах запуска приложения в Докер контейнере и об инструментах, с помощью которых можно мониторить состояние приложений.
+Вы знали, например, что если запустить несколько контейнеров с Jetty приложение может неожиданно упасть ¯_(ツ)_/¯ ! Не забывайте смотреть настройки библиотек по умолчанию!</p>
+
+<p><a href="https://www.quora.com/Which-is-better-Play-Framework-or-Spring-MVC-How-should-I-decide-what-to-use">https://www.quora.com/Which-is-better-Play-Framework-or-Spring-MVC-How-should-I-decide-what-to-use</a></p>
+
+<p><strong>Which is better, Play Framework or Spring MVC? How should I decide what to use?</strong></p>
+
+<p>Отличный ответ с Quora, который претендует на целый пост. О том почему Линкадин перешел со Спринга на Плэй Фреймворк. Вкратце — Спринг очень сложный. Концепции простые, но сложно подружить все его компоненты вместе в рамках большого приложения.</p>
+
+<p><a href="http://musigma.org/java/2016/11/21/reactor.html">http://musigma.org/java/2016/11/21/reactor.html</a></p>
+
+<p><strong>Reactive systems using Reactor</strong></p>
+
+<p>На смену хайпу про микросервисы приходит &ldquo;новая&rdquo; модная парадигма — реактивность. Теперь мы пишем не просто микросервисы, а реактивные микросервисы. На основе библиотеки Reactor автор рассказывает об основных концепциях реактивных стримов. Реактивность скоро появится в Спринге 5.0 — всем читать и разбираться.</p>
+
+<p><a href="http://upli.st/l/list-of-all-ascii-emoticons">http://upli.st/l/list-of-all-ascii-emoticons</a></p>
+
+<p>Сегодня десерт. Ссылка самые популярные текстовые эмодзи - чтобы в чате быть на высоте ( ͡° ͜ʖ ͡°)</p>
+
+</main>
+
+  <footer>
+
+    <div class="main-black-footer">
+      <div class="cover_container ">
+        <div class="footer-header"> <span class="blue"> Javaswag </span> — рассылка и телеграм-канал интересных  и&nbsp;полезных статей из мира Java</div>
+          <div class="col-5" style="padding-top: 45px">
+            <div class="footer-text-1">Подписывайся, будет круто</div>
+            <div class="footer-text-2">По почте: </div>
+            <div style="overflow: hidden">
+              <input class="footer-input">
+              <button class="btn-footer">Подписаться</button>
+            </div>
+            <div class="footer-text-2" style="float: left">Или в телеграме:&nbsp; </div>
+            <div class="footer-text-2 footer-link" style="float: left">  https://t.me/javaswag</div>
+          </div>
+          <div class="col-5" style="padding-top: 45px">
+            <div class="footer-text-1">Присылай интересные статьи по Java</div>
+            <div class="footer-text-2">Мы добавим их в рассылку если они реально классные</div>
+            <div style="position: relative">
+            <input class="footer-input2">
+            <img src="/img/send_icon.png" style="position: absolute; float: left; top: 15px; left: 357px;">
+            </div>
+          </div>
+          <div class="col-2" style="padding-top: 45px">
+            <img src="/img/kabanchic.png">
+            <div class="footer-text-2" style="font-size: 12px;">Платное размещение рекламы — volyihin@gmail.com</div>
+
+          </div>
+      </div>
+    </div>
+
+  
+  
+  </footer>
+  </body>
+</html>
+

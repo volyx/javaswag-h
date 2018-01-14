@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Javaswag</title>
+    <link>http://javaswag.ru/post/index.xml</link>
+    <description>Recent content in Posts on Javaswag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://javaswag.ru/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Javaswag выпуск 27</title>
+      <link>http://javaswag.ru/2017/02/28/javaswag-27/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2017/02/28/javaswag-27/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске запоминающие функции из Java 9, туториал по эластиксерчу и новый сборщик мусора - Эпсилон.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/elasticsearch-full-text-search-rest-api&#34;&gt;http://www.baeldung.com/elasticsearch-full-text-search-rest-api&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simple Full-Text Search with ElasticSearch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор показывает, как с помощью нескольких команд из консоли можно добавить документы в эластиксерч и сразу же начать искать по ним. Простой и понятный туториал об эластиксерче.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://carlmartensen.com/immutability-made-easy-in-java-9&#34;&gt;http://carlmartensen.com/immutability-made-easy-in-java-9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Java 9’s Immutable Collections Are Easier To Create But Use With Caution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В Java 9 появятся новые методы Set.of, Map.of, которые упростят создание неизменяемых коллекций. В Java 8  для этого требовалось несколько строк, а теперь одна.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/memoizing-functions-with-core-java9&#34;&gt;https://dzone.com/articles/memoizing-functions-with-core-java9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Memoizing Functions With Core Java 9&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Memoizing Functions или запоминающие результат функции в восьмой джаве приходилось писать самим. В девятой появится метод Memoizer.memoize, который сделает всю работу за разработчика.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/88-szpeNfrU&#34;&gt;https://youtu.be/88-szpeNfrU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting C/C++ performance out of Java&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Джон Дэвис в своем докладе советует писать код на джаве как в 80-х, 90-х годах на Си.
+Использовать бинарный формат хранения объектов, и как можно меньше памяти.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaspecialists.eu/archive/Issue245.html&#34;&gt;http://www.javaspecialists.eu/archive/Issue245.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Surprising += Cast&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Хейнз Кабутс рассказывает о скрытых преобразованиях типов в простых конструкциях.&lt;/p&gt;
+
+&lt;p&gt;Чтобы до конца в них разобраться придется заглянуть в спецификацию языка.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mchernyavska.wordpress.com/2017/02/19/interview-questions-verify-the-braces/&#34;&gt;https://mchernyavska.wordpress.com/2017/02/19/interview-questions-verify-the-braces/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Interview questions: verify the braces&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Часто встречающаяся задача с собеседований — «про скобки». Ее первое решение наверняка известно многим, а вот второе через while и replace гораздо лаконичней и проще.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://habrahabr.ru/post/321856/&#34;&gt;https://habrahabr.ru/post/321856/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Новый GC Epsilon. У джавы может не быть сборки мусора. Шок. Сенсация&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается о новом сборщике мусора под кодовым именем «Эпсилон». «Эпсилон» хоть и сборщик мусора, но мусор не собирает.  В статье — о том как он это делает.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.infoq.com/news/2017/02/java-memory-limit-container&#34;&gt;https://www.infoq.com/news/2017/02/java-memory-limit-container&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Java 9 Will Adjust Memory Limits if Running with Docker&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В джава 9 появится опция, которая поможет виртуальной машине понять запущена она в контейнере или нет. Теперь джава сможет управлять выделяемой памятью, зная что она запущена в контейнере.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://probablydance.com/2017/02/26/i-wrote-the-fastest-hashtable/&#34;&gt;https://probablydance.com/2017/02/26/i-wrote-the-fastest-hashtable/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I Wrote The Fastest Hashtable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Для любителей хардкора и языка Си лонгрид про самую быструю хеш-таблицу по словам автора.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 26</title>
+      <link>http://javaswag.ru/2017/02/08/javaswag-26/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2017/02/08/javaswag-26/</guid>
+      <description>&lt;p&gt;Привет! В выпуске компилируем код на лету, пишем свой сплитератор и генерируем видео для ютьюба по статьям из википедии.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparktutorials.github.io/2017/01/28/using-spark-with-kotlin.html&#34;&gt;https://sparktutorials.github.io/2017/01/28/using-spark-with-kotlin.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Using Spark with Kotlin to create a simple CRUD REST API&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Хороший способ познакомиться с языком Котлин - написать на нем простой веб-сервис. Библиотека Спарк хорошо подходит для этого. 10 минут и вы добавляете себе еще один язык в резюме.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.frankel.ch/compilation-java-code-on-the-fly/#gsc.tab=0&#34;&gt;https://blog.frankel.ch/compilation-java-code-on-the-fly/#gsc.tab=0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Compilation of Java code on the fly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Знали что JVM может компилировать код программно? То есть можно загрузить класс из файла, скомпилировать его &amp;ldquo;на лету&amp;rdquo; и все, его можно использовать. В статье пример кода по загрузке класса извне и набор параметров с которым нужно запускать приложение.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.infoq.com/articles/Building-Reactive-Applications-with-Akka&#34;&gt;https://www.infoq.com/articles/Building-Reactive-Applications-with-Akka&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building Reactive Applications with Akka Actors and Java 8&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Маркус Эйсель рассказывает о том, как написать распределенное приложение используя модель акторов. Познакомившись с этой моделью вы уже не сможете мыслить иначе - каждый поток будет казаться вам актором. Это очень простая и в тоже время гибкая концепция.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.airpair.com/java/posts/parallel-processing-of-io-based-data-with-java-streams&#34;&gt;https://www.airpair.com/java/posts/parallel-processing-of-io-based-data-with-java-streams&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Faster parallel processing in Java using Streams and a spliterator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор показывает как можно написать свой &amp;ldquo;сплитератор&amp;rdquo;, который будет обрабатывать файл по частям. Реализация с его сплитератором, запущенная параллельно работает в 4 раза быстрее чем, однопоточная, и предоставляет красивый декларативный апи.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://royvanrijn.com/blog/2017/01/vikipedia-a-java-youtube-bot/&#34;&gt;http://royvanrijn.com/blog/2017/01/vikipedia-a-java-youtube-bot/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vikipedia: A Java YouTube bot&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор блога написал бота, который превращает статьи из википедии в видео на ютьюбе. Интересно, что будет если сделать несколько тысяч таких ботов?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://making.duolingo.com/rewriting-duolingos-engine-in-scala&#34;&gt;http://making.duolingo.com/rewriting-duolingos-engine-in-scala&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rewriting Duolingo&amp;rsquo;s engine in Scala&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Инженеры из Дуалинго рассказывают как переписали один из сервисов с питона на скалу. Время ответа сервера сократилось с 700 миллисекунд до 14. В статье — как они пришли к этому решению.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://building.coursera.org/blog/2016/12/01/should-engineering-managers-write-code-wrong-question/&#34;&gt;https://building.coursera.org/blog/2016/12/01/should-engineering-managers-write-code-wrong-question/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Should engineering managers write code? Wrong question.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Не только разработчики, но и менеджеры в курсере пишут код. Но при этом не для самой курсеры, а для автоматизации своих рутинных задач.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plumbr.eu/blog/programming/processing-billions-of-eventsday&#34;&gt;https://plumbr.eu/blog/programming/processing-billions-of-eventsday&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Processing billions of events/day&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Инженеры из Пламбр рассказывают как декомпозировали свой монолитный сервер на несколько микросервисов. В статье — почему решили переписывать, какие были требования, к чему пришли.&lt;/p&gt;
+
+&lt;p&gt;Картинка &lt;a href=&#34;https://twitter.com/vitalishkurenko/status/825070719356788736&#34;&gt;https://twitter.com/vitalishkurenko/status/825070719356788736&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 25</title>
+      <link>http://javaswag.ru/2017/01/31/javaswag-25/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2017/01/31/javaswag-25/</guid>
+      <description>&lt;p&gt;Привет!
+Это первый выпуск в этом году! Выпуск немного припозднился, но дальше по расписанию. Поехали!
+В выпуске &amp;ldquo;оживляем&amp;rdquo; Skip List, разбираемся с размеров пула соединений и смотрим видео про улучшение производительности строк в Java 9.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bruceeckel.github.io/2017/01/13/constructors-are-not-thread-safe/&#34;&gt;http://bruceeckel.github.io/2017/01/13/constructors-are-not-thread-safe/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Constructors Are Not Thread-Safe&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Брюс Эккель рассуждает про потоко-небезопасные конструкторы в Java. На примерах показывает к чему это может привести, и как сделать создание объекта потокобезопасным.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://thenewstack.io/three-stages-software-engineering-scale/&#34;&gt;http://thenewstack.io/three-stages-software-engineering-scale/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Three Stages of Software Engineering&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Три этапа развития целей проекта - простота, эффективность, организационная структура. Такие приоритеты должны быть у компании по мнению разработчика из Линкадина.
+Если бы можно было вынести всего одно предложение из всей статьи, то это было бы &amp;ldquo;Пока ваша команда меньше 30 человек основным приоритетом должна быть простота&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://code.flickr.net/2017/01/05/a-year-without-a-byte/&#34;&gt;http://code.flickr.net/2017/01/05/a-year-without-a-byte/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Year Without a Byte&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Сервис flick в 2016 году ставил цель сократить расходы на хранение фотографий. Весьма амбициозная задача для фотохостинга, учитывая растущее каждый год количество загружаемого контента! Фликровцы рассказывают как пережали уже существующие фотографии, уменьшили количество резервной памяти на дисках и размеры маленьких версий фоток.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ticki.github.io/blog/skip-lists-done-right/&#34;&gt;http://ticki.github.io/blog/skip-lists-done-right/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skip Lists: Done Right&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Список с пропусками, он же Skip Lists - несправедливо &amp;ldquo;забытая&amp;rdquo; структура данных в джаве. Статья поможет освежить в памяти его устройство, и напомнит случаи, когда “скип лист” будет полезен.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing&#34;&gt;https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About Pool Sizing&lt;/strong&gt;
+Какой должен быть размер пула подключения к базе данных? 10000? 1000? 100?&lt;/p&gt;
+
+&lt;p&gt;Если вы хоть раз задумывались над размером пула соединений к базе данных, то эта статья для вас.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/_evzaAkd594&#34;&gt;https://youtu.be/_evzaAkd594&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aleksey Shipilev - String Enhancements in JDK 9&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;За 20 минут Алексей Шипилев расскажет про улучшения производительности части строк в грядущей Java 9. Маст си для джава девелопера.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@lukleDev/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974#.qzpd6ebwm&#34;&gt;https://medium.com/@lukleDev/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974#.qzpd6ebwm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How &amp;ldquo;Effective Java&amp;rdquo; may have influenced the design of Kotlin — Part 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Немного Котлина. А именно то,какие улучшения язык Котлин впитал из Джавы.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/lmax-disruptor-concurrency&#34;&gt;http://www.baeldung.com/lmax-disruptor-concurrency&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Concurrency with LMAX Disruptor – An Introduction&lt;/strong&gt;
+В блоге баелдунга рассказывается о том, как устроен фреймворк дизраптор и как ему удается быть настолько быстрым. Все дело в &amp;ldquo;mechanical sympathy&amp;rdquo; — процессе когда программа работает “в унисон” с железками.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 24</title>
+      <link>http://javaswag.ru/2016/12/16/javaswag-24/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/12/16/javaswag-24/</guid>
+      <description>&lt;p&gt;Привет! В выпуске ограничиваем скорость загрузки с сервера, кэшируем данные из монги в редисе и разбираемся со статической компиляцией в Джаве 9.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/enabling-caching-in-mongodb-database-with-redis-us&#34;&gt;https://dzone.com/articles/enabling-caching-in-mongodb-database-with-redis-us&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Caching in MongoDB With Redis Using Spring Boot&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается, как можно ускорить работу с монгой, подключив редис кэш, &amp;ldquo;без регистрации и смс&amp;rdquo;, точнее без XML конфигурации.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.twitter.com/2016/simplify-service-dependencies-with-nodes&#34;&gt;https://blog.twitter.com/2016/simplify-service-dependencies-with-nodes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simplify Service Dependencies with Nodes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Инженеры из твиттера рассказывают о том как они боролись с ростом количества запросов к &amp;ldquo;микросервисам поиска&amp;rdquo; в приложении. В статье — сражение с циклическими зависимостями данных, асинхронные запросы, собственная опенсорс библиотека Finagle.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jug.ru/2016/12/aot-hotspot/&#34;&gt;http://jug.ru/2016/12/aot-hotspot/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Время компилировать: Дмитрий Чуйко и Никита Липский про AOT в HotSpot&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Статическая компиляция семимильными шагами приходит и в Джава мир. О том для чего она нужна и как все это связано с лозунгом Джава &amp;ldquo;Write once - run anywhere&amp;rdquo;.
+Дисклеймер - Джава идет в сторону iOS, но это не точно.&lt;/p&gt;
+
+&lt;p&gt;Кстати, эту статью написал и прислал подписчик. Если у вас есть чем поделиться с любителями джавы, не стесняйтесь присылать ссылки на почту волыхингмэйл&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://plumbr.eu/blog/monitoring/time-in-distributed-systems&#34;&gt;https://plumbr.eu/blog/monitoring/time-in-distributed-systems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time in distributed systems&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Инженеры из Пламбр рассказывают о том, как они синхронизируют время в своих джава агентах. Решение позаимствовано из распределенных систем и будет полезно всем кто интересуется этой темой.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://book.mixu.net/distsys/single-page.html&#34;&gt;http://book.mixu.net/distsys/single-page.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;**Distributed systems **&lt;strong&gt;for fun and profit&lt;/strong&gt;
+Джава мир продолжает двигаться в сторону микросервисов и такие термины как пропускная способность, скорость отклика, отказоустойчивость приходят в джаву из распределенных систем. В ссылке небольшая книга о концепциях и терминах распределенных систем.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html&#34;&gt;http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Schema evolution in Avro, Protocol Buffers and Thrift&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Представьте, что у вас есть несколько микросервисов, которые обмениваются между собой сообщениями. Что вы будете делать если понадобилось добавить поле в одно из сообщений и при этом нельзя перезапускать все микросервисы? Решение есть. Ваши сообщения должны поддерживать &amp;ldquo;эволюцию схемы&amp;rdquo; - то есть работать только с теми полями, о которых они знают, а “устаревшие” не использовать.&lt;/p&gt;
+
+&lt;p&gt;Мартин Клеппман рассказывает о том как с этой проблемой справились в библиотеках Avro, Protocol Buffers, Thrift.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ivanyu.me/blog/2016/12/12/about-akka-streams/&#34;&gt;https://ivanyu.me/blog/2016/12/12/about-akka-streams/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About Akka Streams&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор рассказывает о том как с помощью Акка Стримов можно декларативно конструировать асинхронные &amp;ldquo;пайпайны&amp;rdquo; для обработки данных. Автор простым языком объясняет концепции, которые за этим всем стоят.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nurkiewicz.com/2015/06/writing-download-server-part-i-always.html?m=1&#34;&gt;http://www.nurkiewicz.com/2015/06/writing-download-server-part-i-always.html?m=1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Writing a download server. Part I: Always stream, never keep fully in memory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Если бы я мог вернуться в прошлое, я передал бы себе следующее послание - &amp;ldquo;Не клади все данные из файла в массив байтов - используй стримы&amp;rdquo;. Однажды я&lt;/p&gt;
+
+&lt;p&gt;столкнулся с похожим вопросом на собеседовании и провалил тестовое задание.  Читайте статью и не делайте как я.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html&#34;&gt;http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tenfold increase in server throughput with Servlet 3.0 asynchronous processing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Представьте, что у вашего приложения появился очень активный пользователь, который только и делает что загружает файлы с вашего сервера. Остальным пользователям перестает хватать скорости и сервер начинает тратить много памяти и процессора. Одно из возможных решений это ограничить скорость загрузки с сервера, или сделать ее контролируемой. Томас рассказывает, как написать сервлет, который будет отдавать файлы с одной и той же скоростью, независимо от того сколько пользователей к нему подключилось.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 23</title>
+      <link>http://javaswag.ru/2016/12/02/javaswag-23/</link>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/12/02/javaswag-23/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске усатый движок шаблонов, серверный рендеринг и миллиарды реквестов за 120$.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javamagazine.mozaicreader.com/NovDec2016/Default/25/&#34;&gt;http://www.javamagazine.mozaicreader.com/NovDec2016/Default/25/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Java Magazine - JUnit 5 Arrives!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Свежий выпуск журнала Java Magazine. В первой части про изменения в Junit 5. Это самые большие обновления фреймворка с момента его выпуска. Во второй — обсуждение того, как выглядят дизайн паттерны с синтаксисом Java 8.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://patrickgrimard.io/2016/11/24/server-side-rendering-with-spring-boot-and-react/&#34;&gt;https://patrickgrimard.io/2016/11/24/server-side-rendering-with-spring-boot-and-react/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Server side rendering with spring boot and react&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Фреймворк Реакт уже победил всех на фронтенде и стремительно врываются в Java мир с рендерингом на сервере. Серверный рендеринг это когда джаваскрипт приложение рендерится в ХТМЛ на сервере и на клиент доставляется уже готовая ХТМЛ страница. JSP, JSF, Thymeleaf похоже уже устарели, давайте поспевать за динамичным фронтендом.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.joda.org/2015/12/explicit-receiver-parameters.html&#34;&gt;http://blog.joda.org/2015/12/explicit-receiver-parameters.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explicit receiver parameters&lt;/strong&gt;
+Коллега прислал в чатик вопрос: скомпилируется ли такой метод &lt;code&gt;public int compareTo(Currency this, Currency other) { ... }&lt;/code&gt; ? Я ответил нет. Ведь очевидно же, что this ключевое слово и компилироваться метод с таким названием параметра не должен. Я ошибся. Метод скомпилировался. А перестал он компилироваться, когда я поменял параметры местами. Удивлены? В статье о незамеченной фиче джавы — Explicit receiver parameters.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://spring.io/blog/2016/11/21/the-joy-of-mustache-server-side-templates-for-the-jvm&#34;&gt;https://spring.io/blog/2016/11/21/the-joy-of-mustache-server-side-templates-for-the-jvm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Joy of Mustache: Server Side Templates for the JVM&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается о движке шаблонов Мусташ, что переводится как &amp;ldquo;Усы&amp;rdquo;. Действительно, если посмотреть под углом на фигурные скобки {},можно разглядеть перевернутые усы. Усатые шаблоны просты, документация практически не нужна. Если в Таймлифе без документации и строчки не написать, то мусташ до безобразия понятен. Достойная замена JSP для нового проекта.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/the-internal-cache-of-integers&#34;&gt;https://dzone.com/articles/the-internal-cache-of-integers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Internal Cache of Integers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Знали что выражение  Integer.valueOf(17) == Integer.valueOf(17) вернет true, а Integer.valueOf(200) != Integer.valueOf(200) вернет false?&lt;/p&gt;
+
+&lt;p&gt;Дело в том, что виртуальная машина хранит кэш целых чисел от -128 до 127 включительно. В статье рассказывается как можно увеличить этот кэш, а также его внутреннее устройство.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://engineering.linkedin.com/blog/2016/11/application-pauses-when-running-jvm-inside-linux-control-groups&#34;&gt;https://engineering.linkedin.com/blog/2016/11/application-pauses-when-running-jvm-inside-linux-control-groups&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application Pauses When Running JVM Inside Linux Control Groups&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В Линкадине используют самописные контейнеры и свое приватное облако  LPS. Если вы хотите понять как джава взаимодействует с cgroups добро пожаловать в статью. К сожалению даже блог Линкадина заблокирован, так что лучше заходить через VPN.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://habrahabr.ru/post/316370/&#34;&gt;https://habrahabr.ru/post/316370/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12 млрд реквестов в месяц за 120$ на java&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Всем кто начинает стартап проект обязательно прочтению. Возможно после вы задумаетесь о том нужна ли вам база данных и сколько вы тратите денег на архитектуру. Статья из серии Minimalist architecture - как минимальным количеством денег сделать надежную архитектуру.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 22</title>
+      <link>http://javaswag.ru/2016/11/24/javaswag-22/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/11/24/javaswag-22/</guid>
+      <description>&lt;p&gt;Привет!&lt;/p&gt;
+
+&lt;p&gt;В выпуске стримим данные из MySql с помощью Spring Data, разбираемся с производительностью JVM в докере и знакомимся с проектом Reactor от Spring.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@johnmcclean/trampolining-a-practical-guide-for-awesome-java-developers-4b657d9c3076#.gqjbui9qd&#34;&gt;https://medium.com/@johnmcclean/trampolining-a-practical-guide-for-awesome-java-developers-4b657d9c3076#.gqjbui9qd&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trampolining: a practical guide for awesome Java Developers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Основная проблема рекурсивных методов это зависимость от размера стека. С помощью рекурсии можно обрабатывать только небольшие объемы данных, чтобы не поймать StackOverFlowError. Но когда мы переписываем код с рекурсии на очередь например, код становится не таким читаемым. В статье рассказывается о том как можно писать рекурсивный код, который будет выполнятся итеративно.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mrhaki.blogspot.ru/2014/05/groovy-goodness-implementing-traits-at.html&#34;&gt;http://mrhaki.blogspot.ru/2014/05/groovy-goodness-implementing-traits-at.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Groovy Goodness: Implementing Traits at Runtime&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается про Трейты — конструкцию из языка Груви. Трейт — это интерфейс, который мы можем добавить к классу динамически. Мы как будто подмешиваем свое поведение к уже существующему классу.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://knes1.github.io/blog/2015/2015-10-19-streaming-mysql-results-using-java8-streams-and-spring-data.html&#34;&gt;https://knes1.github.io/blog/2015/2015-10-19-streaming-mysql-results-using-java8-streams-and-spring-data.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Streaming MySQL Results Using Java 8 Streams and Spring Data JPA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается о том как можно отдавать данные из MySql в потоковом режиме. Углубившись в дебри документации к MySql  автору удалось сократить время экспорта с **137 секунд до 9! **&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codeahoy.com/2016/11/16/performance-testing-serverside-applications/&#34;&gt;http://codeahoy.com/2016/11/16/performance-testing-serverside-applications/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Performance Testing Serverside Applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается как нужно и как не нужно тестировать производительность приложения. Из статьи узнаете почему бессмысленно мерить производительность приложения не в продакшн окружении.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://techblog.bozho.net/hardcode-server-ip-apps/&#34;&gt;https://techblog.bozho.net/hardcode-server-ip-apps/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Domain Fallback Mechanism In Apps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Что делать если какой-то из больших днс серверов упал? Да, теперь мы не можем подключится к серверу по его домену, а в наше время микросервисов это еще более больно, чем раньше. Автор решает эту проблему с помощью фолбеков - сначала мы пробуем первый домен, если не получается запасной, затем пробуем достучаться по ip адресу.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://javarticles.com/2016/11/linkedblockingqueue-example.html&#34;&gt;http://javarticles.com/2016/11/linkedblockingqueue-example.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LinkedBlockingQueue Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор с отличными примерами и картинками рассказывает о том как работает ‘LinkedBlockingQueue ’ Обязательно запустите примеры из статьи - они хорошо демонстрируют применение этой структуры данных.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6ePUiQuaUos&amp;amp;t=310s&amp;amp;index=47&amp;amp;list=WL&#34;&gt;https://www.youtube.com/watch?v=6ePUiQuaUos&amp;amp;t=310s&amp;amp;index=47&amp;amp;list=WL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The JVM and Docker. A good idea? by Christopher Batey&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Кристофер рассказывает о проблемах запуска приложения в Докер контейнере и об инструментах, с помощью которых можно мониторить состояние приложений.
+Вы знали, например, что если запустить несколько контейнеров с Jetty приложение может неожиданно упасть ¯_(ツ)_/¯ ! Не забывайте смотреть настройки библиотек по умолчанию!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.quora.com/Which-is-better-Play-Framework-or-Spring-MVC-How-should-I-decide-what-to-use&#34;&gt;https://www.quora.com/Which-is-better-Play-Framework-or-Spring-MVC-How-should-I-decide-what-to-use&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Which is better, Play Framework or Spring MVC? How should I decide what to use?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Отличный ответ с Quora, который претендует на целый пост. О том почему Линкадин перешел со Спринга на Плэй Фреймворк. Вкратце — Спринг очень сложный. Концепции простые, но сложно подружить все его компоненты вместе в рамках большого приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://musigma.org/java/2016/11/21/reactor.html&#34;&gt;http://musigma.org/java/2016/11/21/reactor.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reactive systems using Reactor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;На смену хайпу про микросервисы приходит &amp;ldquo;новая&amp;rdquo; модная парадигма — реактивность. Теперь мы пишем не просто микросервисы, а реактивные микросервисы. На основе библиотеки Reactor автор рассказывает об основных концепциях реактивных стримов. Реактивность скоро появится в Спринге 5.0 — всем читать и разбираться.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://upli.st/l/list-of-all-ascii-emoticons&#34;&gt;http://upli.st/l/list-of-all-ascii-emoticons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Сегодня десерт. Ссылка самые популярные текстовые эмодзи - чтобы в чате быть на высоте ( ͡° ͜ʖ ͡°)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 21</title>
+      <link>http://javaswag.ru/2016/11/16/javaswag-21/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/11/16/javaswag-21/</guid>
+      <description>&lt;p&gt;В выпуске gRPC, нативная компиляция Java кода и показ метрик из Спринг приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/borisovalex/enabling-googley-microservices-with-http2-and-grpc&#34;&gt;Enabling Googley microservices with HTTP/2 and gRPC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если в вашем проекте понадобился RPC(Remote Procedure Call), то обязательно посмотрите на gRPC. gRPC – популярный фреймворк от Гугла поверх протокола HTTP/2. По ссылке слайды из доклада Алекса Борисова с примерами использования и основными концепциями .&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://batey.info/docker-jvm-flamegraphs.html&#34;&gt;Flame graphs and perf-top for JVMs inside Docker containers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Флейм графы — новый способ отображения количества использованного CPU приложением. Автор статьи рассказывает как можно написать несколько скриптов для построения флейм графов Java приложения, запущенного в докере.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/intro-to-findbugs&#34;&gt;Introduction to FindBugs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;FindBugs — статический анализатор для Java кода. Анализатор просматривает код и выдает список потенциальных ошибок. В статье рассказывается как запускать FindBugs из IDE и встраивать его в процесс сборки приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/maven-webjars&#34;&gt;Introduction to WebJars&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается  как с помощью мавена можно встроить css и javascript библиотеки в ваше приложение. На примере спринг приложения автор рассказывает как с помощью нескольких строк кода добавить в проект Jquery и bootstrap.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.voxxed.com/blog/2016/10/native-ahead-time-compilation-java/&#34;&gt;Native Ahead-of-Time Compilation in Java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В Java 9 появится возможность компилировать приложение в нативный код. В статье краткое описание утилиты &lt;code&gt;jaotc&lt;/code&gt; и видео c JVM Language Summit&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jameskleeh.com/groovy-excel-builder&#34;&gt;Groovy Excel Builder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Библиотека Groovy Excel Builder предлагает удобный DSL для создания Excel файлов. Apache POI используется внутри, а снаружи используется лаконичный АПИ — все то за что так любят Groovy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.heapwhisperer.com/2015/07/exposing-jvm-metrics-in-spring-boot.html&#34;&gt;Exposing JVM metrics in Spring Boot applications using Dropwizard metric library&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Как вы собираете метрики из своего приложения? В статье рассказывается о том, как встроить библиотеку Metrics в Спринг приложение чтобы собирать всю необходимую статистику.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://Javaswag.ru/images/dilbert21.jpeg&#34; alt=&#34;dilbert21&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 20</title>
+      <link>http://javaswag.ru/2016/11/04/javaswag-20/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/11/04/javaswag-20/</guid>
+      <description>&lt;p&gt;В выпуске - пишем UDP сервер, оптимизируем код для JIT с помощью JITWatch и разбираемся как работает ThreadLocalRandom.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/udp-in-java&#34;&gt;A Guide To UDP In Java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается как работать с UDP пакетами в Java. На примере простого UDP сервера и клиента автор рассказывает чем отличаются протоколы TCP от UDP и как это ложится на Java.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://psy-lob-saw.blogspot.ru/2016/10/linked-array-queues-part-1-spsc.html&#34;&gt;Linked Array Queues, part 1: SPSC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Нитсан разрабатывает библиотеку &lt;a href=&#34;http://jctools.github.io/JCTools/&#34;&gt;JCTools&lt;/a&gt; и предлагает реализации очередей, которых по его мнению не хватает в Java. В статье рассматривается несколько типов очередей с примерами реализаций из JCTools.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zeroturnaround.com/rebellabs/why-it-rocks-to-finally-understand-java-jit-with-jitwatch/&#34;&gt;Why it rocks to finally understand Java JIT with JITWatch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;JitWatch - утилита которая показывает, как JIT компилятор работает с вашим кодом. В ней можно найти длинные методы в приложении и посмотреть во что компилируется класс. JITWatch поможет найти “узкие места” в коде и переписать их, чтобы код стал JIT-friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://opencredo.com/dynamic-proxies-java-part-2/&#34;&gt;New Tricks with Dynamic Proxies in Java 8 (part 2)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье несколько примеров и трюков по использованию прокси-объектов, а также сравнение их производительности.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.javacodegeeks.com/2016/10/really-need-instanceof.html&#34;&gt;Do you really need instanceof?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор предлагает присмотреться к местам, где в коде используется ‘instanceof’ и попробовать заменить его на паттерн “Визитор”. Станет ли код читабельней или производительней — открытый вопрос. В статье обсуждение и примеры замены.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mydailyjava.blogspot.ru/2016/10/generational-disparity-in-garbage.html&#34;&gt;Generational disparity in garbage collection&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Рафаэль — создатель известной библиотеки для работы с байт кодом - &lt;a href=&#34;http://bytebuddy.net&#34;&gt;ByteBuddy&lt;/a&gt;. В статье он рассказывает как инструментировал ForkJoinPool и боролся со сборкой долгоживущих объектов в своей библиотеке.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.frankel.ch/http-headers-management-with-spring&#34;&gt;HTTP headers forwarding in microservices&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Николас рассказывает о том как можно написать свой “трейсирующий” фреймворк поверх Спринга. Фреймворк добавляет всего три заголовка в запросы к микросервисам. Фреймворк поможет отслеживать работу ваших сервисов и написать кастомный мониторинг для вашего приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://intelligentjava.wordpress.com/2016/10/22/memory-efficient-hashset-implementation-for-java/&#34;&gt;Memory efficient HashSet implementation for Java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор поставил задачу — написать свой HashSet&lt;String&gt; для hex строк, который будет потреблять меньше памяти чем стандартный из Java. Что в итоге получилось читаем в статье.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://seeallhearall.blogspot.ru/2012/05/netty-tutorial-part-1-introduction-to.html&#34;&gt;Netty Tutorial Part 1: Introduction to Netty&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Последние три недели плотно работал с библиотекой Netty - реализовывал RPC(Remote Procedure Call). Про RPC на Netty написано не мало, но как всегда нужен свой “узкозаточенный” мини-фреймворк. Это одна из двух частей статей, которые помогли мне вспомнить основные концепции Netty.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://videlalvaro.github.io/2016/10/inside-java-s-threadlocalrandom.html&#34;&gt;Java ThreadLocalRandom explained&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор разобрается в алгоритмах которые стоят за генерацией случайных чисел в джаве. Титанический труд прочитать все научные работы, стоящие за константами и “магией” в джаве.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://Javaswag.ru/images/dilbert-agile.gif&#34; alt=&#34;dilbert-agile&#34; /&gt;
+&lt;a href=&#34;http://dilbert.com/strip/2016-07-30&#34;&gt;http://dilbert.com/strip/2016-07-30&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 19</title>
+      <link>http://javaswag.ru/2016/10/26/javaswag-19/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/10/26/javaswag-19/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске тонкости экзекъютор сервисов, сохранение объектов в Редис и способы упаковки приложения в исполняемый архив.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.knitelius.com/2016/10/05/understanding-dependency-injection-part-2-postconstruct-and-constructor-injection/&#34;&gt;PostConstruct and constructor injection&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы не помните в какой последовательности вызывается @Inject и @PostConstruct — эта статья для вас. На примерах кода автор показывает какие механизмы скрыты за этими аннотациями внутри IoC контейнера.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nurkiewicz.com/2016/10/small-scale-stream-processing-kata-part.html&#34;&gt;Small scale stream processing kata. Part 1: thread pools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор блога описывает построение архитектуры приложения, которое должно обрабатывать данные в реальном времени со скоростью 1000 запросов в секунду.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://antoniogoncalves.org/2016/10/03/securing-jax-rs-endpoints-with-jwt/&#34;&gt;Securing JAX-RS Endpoints with JWT&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается как защитить REST сервисы с помощью JWT токенов.
+Вы узнаете как написать несколько своих аннотаций и фильтров чтобы самому реализовать систему защиты АПИ приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/java-distributed-in-memory-data-model-powered-by-r&#34;&gt;A Look at the Java Distributed In-Memory Data Model (Powered by Redis)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Библиотека Redison превращает джава объекты в так называемые “живые объекты”. Те в свою очередь, делегируют любые вызовы методов вызовам к Редису. Таким образом живые объекты всегда сохраняют свое состояние в Редис и всегда актуальны.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/antonarhipov/java-bytecode-101&#34;&gt;Java Bytecode 101&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Презентация Антона Архипова с питерской конференции Джокер. Для всех, кто хочет разобраться как работает виртуальная машина Джава или написать свой интерпретатор байткода.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.raywenderlich.com/126770/android-networking-tutorial-getting-started&#34;&gt;Android Networking Tutorial: Getting Started&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье создается Андройд-приложение, которое отображает репозитории с Гитхаба. Акцент делается на работу с сетью.  Хорошая статья перед стартом вашего первого приложения на Андроид.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ashishpaliwal.com/blog/2015/03/java-tip-retrying-operation-with-guava-retrying/&#34;&gt;Retrying operation with Guava Retrying&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Guava Retrying - библиотека позволяет оборачивать методы в “ретрай обертку”, которая реализует повтор операции за вас. Парсили вы сайт и оборвался интернет — библиотека позволяет настроить количество повторов, таймауты, период через который нужно повторить операцию и много чего еще.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://code.nomad-labs.com/2011/12/09/mother-fk-the-scheduledexecutorservice/&#34;&gt;Mother F**k the ScheduledExecutorService!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Я столкнулся с этим буквально на этой неделе. Вы знали что ScheduledThreadPoolExecutor не бросает Рантайм ошибки? Если в коде где-то спрятался NullPointerException экзекъютор не показывает ошибку, а продолжает спокойно выполняться — будьте осторожней с ним и прочитайте обязательно статью.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.richardnichols.net/2012/01/how-to-get-the-running-tasks-for-a-java-executor/&#34;&gt;How to get the running tasks for a Java Executor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается как написать свой экзекъютор для того чтобы мониторить текущие потоки — какие выполняются, а какие уже выполнились.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jtmelton.com/2007/11/27/a-simple-multi-threaded-java-http-proxy-server/&#34;&gt;A Simple Multi-Threaded Java HTTP Proxy Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вы когда-нибудь задумывались как реализованы прокси-сервера, то вам понравится эта статья. Автор написал свою реализацию прокси сервера на джаве. Она конечно, не готова к использованию в продакшене — но точно поможет разобраться как все устроено.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/executable-jar-with-maven&#34;&gt;How to Create an Executable JAR with Maven&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье 6 способов как можно с помощью мавен плагинов сделать запускаемый jar-файл.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 18</title>
+      <link>http://javaswag.ru/2016/10/17/javaswag-18/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/10/17/javaswag-18/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске коллекции примитивов Trove, автотесты для equals, hashCode и компонент Спринга с 50-ю аннотациями.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=puYPHysBN7U&#34;&gt;Трансляция конференции Joker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Запись трансляции из 2 зала.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://java-performance.info/primitive-types-collections-trove-library/&#34;&gt;Trove library: using primitive collections for performance&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Библиотека коллекций для работы с примитивами. &lt;code&gt;TIntArrayList&lt;/code&gt;
+, &lt;code&gt;TIntLinkedList&lt;/code&gt;, а также реализации Set и Map. Полезно знать о них, если в приложении важно количество используемой памяти.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://grison.me/2016/09/30/monster-component-java-spring/&#34;&gt;Monster Component in Java with Spring&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;50 аннотаций над классом - думаете это нереально? Посмотрите что можно “наконфигурировать” с любимыми аннотациями из Спринга.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jqno.nl/equalsverifier/&#34;&gt;EqualsVerifier&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Библиотека EqualsVerifier автоматически проверяет реализации методов &lt;code&gt;equals()&lt;/code&gt;, &lt;code&gt;hachCode()&lt;/code&gt; на корректность. Они важны, но и их всегда лень тестировать. Отлично что есть библиотека, которая делает за нас. Автоматическое тестирование  &lt;code&gt;equals()&lt;/code&gt;, &lt;code&gt;hachCode()&lt;/code&gt; может сохранить вам несколько часов отладки кода на продакшене.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gtrefs.github.io/code/combinator-pattern/&#34;&gt;Combinator Pattern with Java 8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор блога предлагает писать методы валидации в функциональном стиле - это позволяет составлять из них более сложные функции валидации, как в конструкторе.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.frankel.ch/should-tests-be-ordered-or-not&#34;&gt;Should tests be ordered or not?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Николас Франкел рассуждает о юнит тестах: должны ли они быть упорядочены, какого размера должны быть, и отличаются от интеграционных.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 17</title>
+      <link>http://javaswag.ru/2016/09/26/javaswag-17/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/09/26/javaswag-17/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iteratrlearning.com/java9/2016/09/13/java9-timeouts-completablefutures.html&#34;&gt;Asynchronous timeouts with CompletableFutures in Java 8 and Java 9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В Java 9 &lt;code&gt;CompletableFuture&lt;/code&gt; получит несколько методов для асинронной работы с таймаутами: &lt;code&gt;orTimeout&lt;/code&gt;, &lt;code&gt;completeOnTimeout&lt;/code&gt;, которые особенно пригодятся если если один из ваших вызовов внутри &lt;code&gt;CompletableFuture&lt;/code&gt; не отвечает или завис.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLPIzp-E1msrYicmovyeuOABO4HxVPlhEA&#34;&gt;JavaOne 2016&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Видео с JavaOne - для тех кто хочет быт ьна самой передовой. Темы с JavaOne обычно расползаются по конференциям и задают тренд на следущий год.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arnaudroger.github.io/blog/2016/09/19/consumer-in-place-of-returning-list.html&#34;&gt;Consumer In Place Of Returning List&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Что если в метод передавать не &lt;code&gt;List&lt;/code&gt;, а &lt;code&gt;Consumer&lt;/code&gt;? Это избавит от создания списка, который в будущем может не пригодится.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.radicaljava.com/2016/09/19/safe-builder.html&#34;&gt;The Safe Builder Pattern&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Самый популярный подход для созднания сложных объектов - паттерн &lt;code&gt;Builder&lt;/code&gt;, но его недостатком является то, что нельзя проверить на этапе компиляции - все параметры ьыли установлены. Поэтому часто можно неожиданно поймать &lt;code&gt;NullPointerExcetion&lt;/code&gt;. В статье рассказывается, как реализовать паттерн &lt;code&gt;Builder&lt;/code&gt; без этого недостатка.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thoughts-on-java.org/complete-guide-inheritance-strategies-jpa-hibernate/&#34;&gt;Complete Guide: Inheritance strategies with JPA and Hibernate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассказывается о 4 стратегиях, поддерживаемых &lt;code&gt;Hibernate&lt;/code&gt; для храниия объектов с иерархией. &amp;ldquo;Must read&amp;rdquo; для всех у кого проекте используется &lt;code&gt;Hibernate&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://xpinjection.com/articles/hibernate-ruined-your-project-no-it-was-you/&#34;&gt;Hibernate испортил ваш проект? Нет, это были вы!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье три полезных видео рассказывающих об устройстве &lt;code&gt;Hibernate&lt;/code&gt;, о сложностях испольхования и о пролемах с проиводительностью. Все три видео на русском языке.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 16</title>
+      <link>http://javaswag.ru/2016/09/18/javaswag-16/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/09/18/javaswag-16/</guid>
+      <description>&lt;p&gt;Привет!
+В выпуске архитектура Spark, перенос релиза Java 9 и Hibernate Search.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://0x0fff.com/spark-architecture/&#34;&gt;Spark Architecture&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Кратко и доступно об архитектуре Spark для интересующихся распределенными системами и вычислениями.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zetcode.com/db/mongodbjava/&#34;&gt;MongoDB Java tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Обучающая статья о работе с Монгой с помощью Java драйвера. От установки - до получения статистики и написания CRUD запросов. Если вы хотите поработать с NoSQL базой, то это самый простой способ начать.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/architecture-is-about-tradeoffs&#34;&gt;Architecture Is About Tradeoffs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор рассуждает об архитектуре, компромиссах при создании приложения, и о том почему для следующего проекта он не выберет JavaEE.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/java-different-types-of-references&#34;&gt;Different Types of References in Java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Помните наизусть все основные типы ссылок в Java? Soft, Weak, Phantom ссылки. Если забыли, то эта статья быстро напомнит.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jcdav.is/2016/09/01/How-the-JVM-compares-your-strings/&#34;&gt;How the JVM compares your strings using the craziest x86 instruction you&amp;rsquo;ve never heard of&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье — погружение в исходный код OpenJDK, затем в ассемблер и процессор. Все для того, чтобы разобраться как работает &lt;code&gt;String.compareTo&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iteratrlearning.com/java9/2016/09/05/java9-optional.html&#34;&gt;Optional Improvements in Java 9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В Java 9 появятся новые методы у &lt;code&gt;Optional&lt;/code&gt; - &lt;code&gt;stream()&lt;/code&gt;, &lt;code&gt;ifPresentOrElse()&lt;/code&gt;, &lt;code&gt;or()&lt;/code&gt;. А также метод &lt;code&gt;get()&lt;/code&gt; будет помечен как &lt;code&gt;@Deprecated&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://info.michael-simons.eu/2016/09/06/hibernate-search-and-spring-boot-simple-yet-powerful-archiving/&#34;&gt;Hibernate Search and Spring Boot: Simple yet powerful archiving&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор написал приложение, используя Spring Boot и Hibernate Search. Приложение архивирует твиты и позволяет искать по их содержанию. Всем интересующимся Hibernate Search - добро пожаловать в статью.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.sitepoint.com/ultimate-guide-to-java-9/&#34;&gt;The Ultimate Guide to Java 9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Релиз Java 9 перенесен на июль 2017, но это не повод расстраиваться. Самое время вспомнить все самые большие изменения, которые запланированы на 9 версию.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.codefx.org/java/rebutting-5-common-stream-tropes/&#34;&gt;Rebutting 5 Common Stream Tropes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье показывается, как отрефакторить длинный процедурный метод в функциональном стиле, используя Stream API.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dzone.com/articles/jvm-architecture-explained&#34;&gt;JVM Architecture Diagram&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Схема компонентов виртуальной машины Java с кратким описанием что они делают, и для чего нужны.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://Javaswag.ru/images/dilbert.gif&#34; alt=&#34;des&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javaswag выпуск 15</title>
+      <link>http://javaswag.ru/2016/09/08/javaswag-15/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://javaswag.ru/2016/09/08/javaswag-15/</guid>
+      <description>&lt;p&gt;Привет! В выпуске - новый @Depracted в Java 9, быстрый старт с Grails и микросервисная архитектура.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.toptal.com/grails/should-java-developers-give-grails-chance&#34;&gt;Why Should Java Developers Give Grails a Chance&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор рассказывает как он переписывал Спринг МВЦ приложение на Грэйлс и с какими проблемами столкнулся.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://giri-tech.blogspot.ru/2016/08/create-secured-restful-api-app-with.html&#34;&gt;Create a Secured Restful API App with Grails 3, PostgreSQL and JMS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Серия статей по созданию Рест Апи используя Грэйлз.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://techblog.bozho.net/why-i-introduced-scala-in-our-project/&#34;&gt;Why I introduced scala in our project&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор решил использовать Скалу для написания тестов для Джава приложения. В статье  - как он пришел к этому решению.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://spring.io/blog/2016/08/30/custom-test-slice-with-spring-boot-1-4&#34;&gt;Custom test slice with Spring Boot 1.4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Спринг выпустил новую фичу - тестовые слайсы. Они позволяют тестировать приложение на каком-то срезе Спрингового контекста. Теперь не нужно запускать все приложение, чтобы выполнить интеграционный тест. Ставите аннотацию &lt;code&gt;@WebMvcTest&lt;/code&gt; и Спринг магически настроит все за Вас.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.java67.com/2015/06/how-to-use-cyclicbarrier-in-java.html&#34;&gt;How to use CyclicBarrier in Java - Concurrency Tutorail&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Циклический Барьер не так часто используется в повседневной жизни программиста, но знать что это такое обязательно нужно, чтобы понимать все способы синхронизации потоков.&lt;/p&gt;
+
+&lt;p&gt;В статье разобран циклический барьер, и показаны примеры его использования.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://howtodoinjava.com/java-8/java-8-watchservice-api-tutorial/&#34;&gt;Java 8 WatchService API Tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В Джава 8 появился новый АПИ для слежения за обновлениями в папке документов. Вешаете слушателя и ловите все изменения с помощью событий.&lt;/p&gt;
+
+&lt;p&gt;Полезно для всех, кто работает в своем приложении с содержимым папки в реальном времени.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://specto.io/blog/recipe-for-designing-building-testing-microservices.html&#34;&gt;A Proposed Recipe for Designing, Building and Testing Microservices&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Компания SpectoLabs описывают свой подход разработки и тестирования микросервисов. О том как писать их “с нуля” и о переходе с монолитного приложения.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.baeldung.com/spring-cloud-data-flow-stream-processing&#34;&gt;Intro to Stream Processing with Spring Cloud Data Flow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Вводная статья по Spring Cloud Data Flow. Это один из молодых проектов Спринга, который упрощает потоковую обработку данных.&lt;/p&gt;
+
+&lt;p&gt;В статье — как это работает, как настроить сервер стриминга и клиента.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gualtierotesta.wordpress.com/2016/02/27/tutorial-correct-slf4j-logging-usage-and-how-to-check-it/&#34;&gt;Tutorial: Correct SLF4J logging usage and how to check it&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;О том как должно выглядеть логирование ошибок с точки зрения анализатора кода FindBugs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jeroenbellen.ghost.io/manage-and-reload-spring-application-properties-on-the-fly/&#34;&gt;Manage and reload spring application properties on the fly&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Сделать обновление настроек Спринг приложения “на лету”, без перезагрузки сервера не просто.В статье туториал как это сделать.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://eng.fitbit.com/instrumenting-hibernate-connection-providers/&#34;&gt;Instrumenting Hibernate Connection Providers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Разработчик Fitbit(это те, с умным браслетом) рассказывает о том как мониторить хибернейт приложение. В статье автор дорабатывает хибернейотвский пул коннектов, чтобы он отдавал еще всякую полезную статистику о себе.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.ndepend.com/plugging-leaky-abstractions/&#34;&gt;Plugging Leaky Abstractions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Почему абстракции в вашем приложении текут и как с этим бороться.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://marxsoftware.blogspot.ru/2016/08/jdk-9-deprecated-annotation-enhancements.html&#34;&gt;JDK 9 @Deprecated Annotation Enhancements&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;В статье рассматриваются два новых атрибута - ‘forRemoval’ и ‘since’, которые появятся у аннотации ‘@Deprecated’ в Джава 9. Для чего они нужны - об этом в статье.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://moelholm.com/2016/08/22/spring-boot-sessions-actuator-endpoint/&#34;&gt;Spring Boot: Sessions actuator endpoint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Автор статьи рассказывает как написать эндпойнт для отображения активных ХТТП сессий пользователей.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга на почту — &lt;a href=&#34;http://javaswag.curated.co&#34;&gt;http://javaswag.curated.co&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Еженедельные выпуски Джавасвэга в Телеграме — &lt;a href=&#34;http://telegram.me/javaswag&#34;&gt;http://telegram.me/javaswag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://Javaswag.ru/images/real_programmers.jpeg&#34; alt=&#34;des&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Удачи!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

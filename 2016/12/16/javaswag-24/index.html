@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javaswag выпуск 24 | Javaswag</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,800i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&amp;subset=cyrillic" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+    
+      
+    
+    
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Javaswag выпуск 24</span></h1>
+
+
+</div>
+
+
+<main>
+<p>Привет! В выпуске ограничиваем скорость загрузки с сервера, кэшируем данные из монги в редисе и разбираемся со статической компиляцией в Джаве 9.</p>
+
+<p><a href="https://dzone.com/articles/enabling-caching-in-mongodb-database-with-redis-us">https://dzone.com/articles/enabling-caching-in-mongodb-database-with-redis-us</a></p>
+
+<p><strong>Caching in MongoDB With Redis Using Spring Boot</strong></p>
+
+<p>В статье рассказывается, как можно ускорить работу с монгой, подключив редис кэш, &ldquo;без регистрации и смс&rdquo;, точнее без XML конфигурации.</p>
+
+<p><a href="https://blog.twitter.com/2016/simplify-service-dependencies-with-nodes">https://blog.twitter.com/2016/simplify-service-dependencies-with-nodes</a></p>
+
+<p><strong>Simplify Service Dependencies with Nodes</strong></p>
+
+<p>Инженеры из твиттера рассказывают о том как они боролись с ростом количества запросов к &ldquo;микросервисам поиска&rdquo; в приложении. В статье — сражение с циклическими зависимостями данных, асинхронные запросы, собственная опенсорс библиотека Finagle.</p>
+
+<p><a href="http://jug.ru/2016/12/aot-hotspot/">http://jug.ru/2016/12/aot-hotspot/</a></p>
+
+<p><strong>Время компилировать: Дмитрий Чуйко и Никита Липский про AOT в HotSpot</strong></p>
+
+<p>Статическая компиляция семимильными шагами приходит и в Джава мир. О том для чего она нужна и как все это связано с лозунгом Джава &ldquo;Write once - run anywhere&rdquo;.
+Дисклеймер - Джава идет в сторону iOS, но это не точно.</p>
+
+<p>Кстати, эту статью написал и прислал подписчик. Если у вас есть чем поделиться с любителями джавы, не стесняйтесь присылать ссылки на почту волыхингмэйл</p>
+
+<p><a href="https://plumbr.eu/blog/monitoring/time-in-distributed-systems">https://plumbr.eu/blog/monitoring/time-in-distributed-systems</a></p>
+
+<p><strong>Time in distributed systems</strong></p>
+
+<p>Инженеры из Пламбр рассказывают о том, как они синхронизируют время в своих джава агентах. Решение позаимствовано из распределенных систем и будет полезно всем кто интересуется этой темой.</p>
+
+<p><a href="http://book.mixu.net/distsys/single-page.html">http://book.mixu.net/distsys/single-page.html</a></p>
+
+<p>**Distributed systems **<strong>for fun and profit</strong>
+Джава мир продолжает двигаться в сторону микросервисов и такие термины как пропускная способность, скорость отклика, отказоустойчивость приходят в джаву из распределенных систем. В ссылке небольшая книга о концепциях и терминах распределенных систем.</p>
+
+<p><a href="http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html">http://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html</a></p>
+
+<p><strong>Schema evolution in Avro, Protocol Buffers and Thrift</strong></p>
+
+<p>Представьте, что у вас есть несколько микросервисов, которые обмениваются между собой сообщениями. Что вы будете делать если понадобилось добавить поле в одно из сообщений и при этом нельзя перезапускать все микросервисы? Решение есть. Ваши сообщения должны поддерживать &ldquo;эволюцию схемы&rdquo; - то есть работать только с теми полями, о которых они знают, а “устаревшие” не использовать.</p>
+
+<p>Мартин Клеппман рассказывает о том как с этой проблемой справились в библиотеках Avro, Protocol Buffers, Thrift.</p>
+
+<p><a href="https://ivanyu.me/blog/2016/12/12/about-akka-streams/">https://ivanyu.me/blog/2016/12/12/about-akka-streams/</a></p>
+
+<p><strong>About Akka Streams</strong></p>
+
+<p>Автор рассказывает о том как с помощью Акка Стримов можно декларативно конструировать асинхронные &ldquo;пайпайны&rdquo; для обработки данных. Автор простым языком объясняет концепции, которые за этим всем стоят.</p>
+
+<p><a href="http://www.nurkiewicz.com/2015/06/writing-download-server-part-i-always.html?m=1">http://www.nurkiewicz.com/2015/06/writing-download-server-part-i-always.html?m=1</a></p>
+
+<p><strong>Writing a download server. Part I: Always stream, never keep fully in memory</strong></p>
+
+<p>Если бы я мог вернуться в прошлое, я передал бы себе следующее послание - &ldquo;Не клади все данные из файла в массив байтов - используй стримы&rdquo;. Однажды я</p>
+
+<p>столкнулся с похожим вопросом на собеседовании и провалил тестовое задание.  Читайте статью и не делайте как я.</p>
+
+<p><a href="http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html">http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html</a></p>
+
+<p><strong>Tenfold increase in server throughput with Servlet 3.0 asynchronous processing</strong></p>
+
+<p>Представьте, что у вашего приложения появился очень активный пользователь, который только и делает что загружает файлы с вашего сервера. Остальным пользователям перестает хватать скорости и сервер начинает тратить много памяти и процессора. Одно из возможных решений это ограничить скорость загрузки с сервера, или сделать ее контролируемой. Томас рассказывает, как написать сервлет, который будет отдавать файлы с одной и той же скоростью, независимо от того сколько пользователей к нему подключилось.</p>
+
+</main>
+
+  <footer>
+
+    <div class="main-black-footer">
+      <div class="cover_container ">
+        <div class="footer-header"> <span class="blue"> Javaswag </span> — рассылка и телеграм-канал интересных  и&nbsp;полезных статей из мира Java</div>
+          <div class="col-5" style="padding-top: 45px">
+            <div class="footer-text-1">Подписывайся, будет круто</div>
+            <div class="footer-text-2">По почте: </div>
+            <div style="overflow: hidden">
+              <input class="footer-input">
+              <button class="btn-footer">Подписаться</button>
+            </div>
+            <div class="footer-text-2" style="float: left">Или в телеграме:&nbsp; </div>
+            <div class="footer-text-2 footer-link" style="float: left">  https://t.me/javaswag</div>
+          </div>
+          <div class="col-5" style="padding-top: 45px">
+            <div class="footer-text-1">Присылай интересные статьи по Java</div>
+            <div class="footer-text-2">Мы добавим их в рассылку если они реально классные</div>
+            <div style="position: relative">
+            <input class="footer-input2">
+            <img src="/img/send_icon.png" style="position: absolute; float: left; top: 15px; left: 357px;">
+            </div>
+          </div>
+          <div class="col-2" style="padding-top: 45px">
+            <img src="/img/kabanchic.png">
+            <div class="footer-text-2" style="font-size: 12px;">Платное размещение рекламы — volyihin@gmail.com</div>
+
+          </div>
+      </div>
+    </div>
+
+  
+  
+  </footer>
+  </body>
+</html>
+
